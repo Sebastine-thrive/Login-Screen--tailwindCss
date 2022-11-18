@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title> Login Screen </title>
+</head>
+
+<body>
+    <section class="bg-gray-50 min-h-screen flex items-center justify-center">
+        <div class="bg-cyan-100 flex rounded-2xl shadow-lg max-w-3xl p-5 items-center">
+            <div class="md:w-1/2 px-8">
+                <h2 class="font-bold text-[#D18B0A] text-2xl "> Login </h2>
+                <p class='text-sm mt-4'> If you are already a member, easily log in</p>
+
+                <form action="" class="flex flex-col gap-4">
+                    <input  class="p-2 rounded-xl border mt-8" type="email" name="email" placeholder="Email">
+
+                    <input class="p-2 rounded-xl border" type="password" name="password" placeholder="Password">
+                    
+                    <button class="bg-[#D18B0A] rounded-xl text-white py-2 font-bold hover:scale-105 duration-300"> Log in</button>
+                </form>
+
+                <div class="mt-10 grid grid-cols-3 items-center text-gray-400">
+                    <hr class="border-gray-400">
+                    <p class="text-center text-sm"> OR </p>
+                    <hr class="border-gray-400">
+                </div>
+
+                <button class="bg-white border py-2 w-full rounded-xl mt-5 text-sm flex justify-center items-center font-medium hover:scale-105 duration-300 "> <img src="google_icon.png" class="mr-3" alt="" width="20px"> Login with Google</button>
+
+                <div class="mt-5 text-xs border-b border-gray-400 py-4"> Forgot your Password</div>
+
+            <div class="text-sm flex justify-between items-center mt-3">
+                <p> If you don't have an account...</p>
+                <button class=" mx-1 py-2 px-5 bg-white border rounded-xl hover:scale-110 duration-300"> Register</button>
+            </div>
+
+            </div>
+
+            <!-- image -->
+            <div class="md:block hidden w-1/2 "> 
+                <img class="rounded-2xl max-h-fit" src="female book reader.jpg" alt="">
+            </div>
+
+
+        </div>
+
+
+    </section>
+</body>
+
+</html>
